@@ -1,0 +1,16 @@
+experiment,config_name,precision,mean_reward,std_reward
+rescue,All INT2 (0 rescuers),"{'agent_0': 2, 'agent_1': 2, 'agent_2': 2}",-135.52469817676553,38.544948475327935
+rescue,1 INT8 + 2 INT2,"{'agent_0': 8, 'agent_1': 2, 'agent_2': 2}",-75.8115248638759,15.634866130284086
+rescue,1 FP32 + 2 INT2,"{'agent_0': 32, 'agent_1': 2, 'agent_2': 2}",-75.60114794844995,16.55497820693196
+rescue,2 INT8 + 1 INT2,"{'agent_0': 8, 'agent_1': 8, 'agent_2': 2}",-64.43720358126458,13.634265807161476
+rescue,2 FP32 + 1 INT2,"{'agent_0': 32, 'agent_1': 32, 'agent_2': 2}",-64.60693974266634,12.59269670386894
+rescue,All INT8 (baseline),"{'agent_0': 8, 'agent_1': 8, 'agent_2': 8}",-64.54464342171522,14.456641144536702
+position,"agent_0 INT8, others INT2","{'agent_0': 8, 'agent_1': 2, 'agent_2': 2}",-77.86476605574958,15.437139977965243
+position,"agent_1 INT8, others INT2","{'agent_0': 2, 'agent_1': 8, 'agent_2': 2}",-95.41563792290515,19.43597662865353
+position,"agent_2 INT8, others INT2","{'agent_0': 2, 'agent_1': 2, 'agent_2': 8}",-134.22494499906935,36.156145239450815
+gradient,32-8-4,"{'agent_0': 32, 'agent_1': 8, 'agent_2': 4}",-61.35413461870206,14.693599455393262
+gradient,32-4-2,"{'agent_0': 32, 'agent_1': 4, 'agent_2': 2}",-62.31735695335601,15.012326944107704
+gradient,8-4-2,"{'agent_0': 8, 'agent_1': 4, 'agent_2': 2}",-63.225242022728764,14.620500308245676
+gradient,32-2-2,"{'agent_0': 32, 'agent_1': 2, 'agent_2': 2}",-75.93173578231604,14.313996995342249
+gradient,8-2-2,"{'agent_0': 8, 'agent_1': 2, 'agent_2': 2}",-76.90547426374167,15.129291717042904
+gradient,4-2-2,"{'agent_0': 4, 'agent_1': 2, 'agent_2': 2}",-81.17491555204872,14.866938288301125

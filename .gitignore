@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# PyTorch checkpoints and models
+*.pt
+*.pth
+*.ckpt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Experiment outputs (keep CSVs and figures but ignore large files)
+*.log
+runs/
+wandb/
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/

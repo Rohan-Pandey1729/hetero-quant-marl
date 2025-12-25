@@ -1,0 +1,10 @@
+config,mean_across_seeds,std_across_seeds
+1 INT8 + 2 INT2,-74.8,1.0
+2 INT8 + 1 INT2,-63.7,2.19
+FP32 (baseline),-63.93,1.66
+INT2 uniform,-136.61,3.82
+INT4 uniform,-63.09,0.94
+INT8 uniform,-64.72,2.65
+agent_0 INT8 (others INT2),-76.07,2.74
+agent_1 INT8 (others INT2),-92.35,1.98
+agent_2 INT8 (others INT2),-138.55,0.51

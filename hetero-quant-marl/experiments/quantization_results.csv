@@ -1,0 +1,16 @@
+experiment,config_name,precision,mean_reward,std_reward,unique_weights_agent0
+uniform,FP32 (baseline),"{'agent_0': 32, 'agent_1': 32, 'agent_2': 32}",-65.34342539411546,15.078634331991822,19450.0
+uniform,INT8 uniform,"{'agent_0': 8, 'agent_1': 8, 'agent_2': 8}",-65.35699341439881,15.461434319269244,555.0
+uniform,INT4 uniform,"{'agent_0': 4, 'agent_1': 4, 'agent_2': 4}",-62.78846847761995,13.855675884623476,51.0
+uniform,INT2 uniform,"{'agent_0': 2, 'agent_1': 2, 'agent_2': 2}",-133.77556540548647,31.31272761454162,9.0
+fraction,0/3 INT4 (all INT8),"{'agent_0': 8, 'agent_1': 8, 'agent_2': 8}",-65.07812446315337,16.781090736483492,
+fraction,1/3 INT4,"{'agent_0': 8, 'agent_1': 8, 'agent_2': 4}",-63.81679782628093,14.554858433138133,
+fraction,2/3 INT4,"{'agent_0': 8, 'agent_1': 4, 'agent_2': 4}",-64.58524937326085,13.35485611376441,
+fraction,3/3 INT4 (all INT4),"{'agent_0': 4, 'agent_1': 4, 'agent_2': 4}",-62.47791879606641,13.304492445135411,
+which_agent,agent_0 INT4,"{'agent_0': 4, 'agent_1': 8, 'agent_2': 8}",-63.8021125910067,12.084315615897387,
+which_agent,agent_1 INT4,"{'agent_0': 8, 'agent_1': 4, 'agent_2': 8}",-63.6565432811024,13.217563826307456,
+which_agent,agent_2 INT4,"{'agent_0': 8, 'agent_1': 8, 'agent_2': 4}",-66.29814830691873,13.8646652324671,
+extreme,"1 FP32, 2 INT4","{'agent_0': 32, 'agent_1': 4, 'agent_2': 4}",-61.877223508612644,16.117641233490858,
+extreme,"1 FP32, 2 INT2","{'agent_0': 32, 'agent_1': 2, 'agent_2': 2}",-77.2224757774866,16.026691314716707,
+extreme,Mixed 32-8-4,"{'agent_0': 32, 'agent_1': 8, 'agent_2': 4}",-66.7272889435329,15.907115916739054,
+extreme,Mixed 8-4-2,"{'agent_0': 8, 'agent_1': 4, 'agent_2': 2}",-63.671942229285285,13.64169151673134,
